@@ -4,7 +4,7 @@
 Các tệp bao gồm là words.json và nodes.json (hiện tại là nodes.json vẫn chưa được dịch).
 
 ## ✔️ Phiên bản tương thích
-Phiên bản v1.19.0.9 hoặc cũ hơn.
+Phiên bản v1.20.0.9 hoặc cũ hơn.
 
 ## 📄 Tệp bao gồm
 - words.json (gộp lại với UI.json)
@@ -22,7 +22,7 @@ Phiên bản v1.19.0.9 hoặc cũ hơn.
 - 3️⃣ Khởi động lại lần nữa để quay về bản tiếng Anh.
 
 ## 🅰️ Thay đổi phông chữ (tùy chọn)
-Lưu ý phông chữ phải có hỗ trợ tiếng Việt để hiển thị tiếng Việt chính xác.
+⚠️ **Lưu ý phông chữ phải có hỗ trợ tiếng Việt để hiển thị tiếng Việt chính xác.**
 - 1️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Fonts.
 - 2️⃣ Tải phông chữ mà bạn muốn (vd đuôi tệp: .tff) rồi sao chép nó vào thư mục Fonts như trên.
 - 3️⃣ Mở phần mền, mở File > Preferences > Theme, vào Font Override rồi chọn phông chữ bạn muốn.
