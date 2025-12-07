@@ -49,4 +49,13 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 
 <br><br>
 
+## ℹ️ Thông tin thêm về Pixel Composer
+- 🏠 [Trang chính thức](https://pixel-composer.com/)
+- 🛒 [Mua trên Steam](https://store.steampowered.com/app/2299510/Pixel_Composer/)
+- 🛒 [Mua trên Itch.io](https://makham.itch.io/pixel-composer)
+- 📕 [Tài liệu 1](https://docs.pixel-composer.com/)
+- 📗 [Tài liệu 2](https://pixel-composer-doc.readthedocs.io/en/latest/)
+
+<br>
+
 > *Bản dịch được thực hiện bởi TienHoangLiz*
