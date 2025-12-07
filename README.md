@@ -1,7 +1,7 @@
 
 ![image alt](https://github.com/THL-droid/Pixel-Composer-Vietnamese-Localization/blob/43e150307c758eb5919bf63690f759c423fd04c1/PXC%20VN.png)
 
-# ⭐ Pixel Composer v1.19 Việt hóa
+# ⭐ Pixel Composer v1.20 Việt hóa
 ## 📌 Mô tả
 Đây là kho lưu trữ chứa các tệp bản địa hóa Tiếng Việt dành cho Pixel Composer. <br>
 Các tệp bao gồm là words.json và nodes.json (hiện tại là nodes.json vẫn chưa được dịch).
