@@ -25,8 +25,11 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 ⚠️ **Lưu ý phông chữ phải có hỗ trợ tiếng Việt để hiển thị tiếng Việt chính xác.**
 - 1️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Fonts.
 - 2️⃣ Tải phông chữ mà bạn muốn (vd đuôi tệp: .tff) rồi sao chép nó vào thư mục Fonts như trên.
-- 3️⃣ Mở phần mền, mở File > Preferences > Theme, vào Font Override rồi chọn phông chữ bạn muốn.
-- 4️⃣ Khởi động lại phần mềm để áp dụng phông chữ mới
+- 3️⃣ Sau đó khởi động lại phần mềm, mở File > Preferences > Theme, vào Font Override rồi chọn phông chữ bạn muốn.
+- 4️⃣ Khởi động lại phần mềm để áp dụng phông chữ mới.
+
+## 🔧 Đề xuất chỉnh sửa
+- Nếu thấy chỗ nào cần sửa cho phù hợp hơn, thì bạn có thể gửi góp ý cho tôi qua GitHub Issues để tôi xem xét sửa lại.
 
 ## 📝 Bản dịch
 *Thực hiện bởi TienHoangLiz*
