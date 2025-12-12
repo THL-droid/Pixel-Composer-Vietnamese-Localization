@@ -9,7 +9,7 @@
 
 ## 📄 Tệp bao gồm
 - [x] words.json (gộp lại với UI.json)
-- [ ] nodes.json (tệp quá lớn để có thể dịch, cần người trợ giúp)
+- [ ] nodes.json (tệp quá lớn nên hiện tại chưa được dịch, cần người trợ giúp)
 
 ## ✔️ Phiên bản tương thích
 Phiên bản v1.20.0.9 hoặc cũ hơn.
