@@ -1,5 +1,5 @@
 
-![image alt](https://github.com/THL-droid/Pixel-Composer-Vietnamese-Localization/blob/43e150307c758eb5919bf63690f759c423fd04c1/PXC%20VN.png)
+![image alt](https://github.com/THL-droid/Pixel-Composer-Vietnamese-Localization/blob/5639acdcf46e377e3b31999bc489dfca4baf6512/PXC%20logo%20vn2.png)
 
 # 🇻🇳 Pixel Composer v1.20 Việt hóa
 ## 📌 Mô tả
