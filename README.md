@@ -17,7 +17,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 <br><br>
 
 ## 🛠️ Cách cài đặt
-- 1️⃣ Tải xuống và sao chép thư mục "vn"
+- 1️⃣ Tải xuống, vào thư mục VN_Installer và sao chép thư mục "vn"
 - 2️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Locale rồi dán thư mục "vn" vào.
 - 3️⃣ Sau đó khởi động lại phần mềm, mở File > Preferences > Interface > Interface Language, rồi chọn "vn".
 - 4️⃣ Khởi động lại lần nữa để áp dụng bản Việt hóa. <br><br>
