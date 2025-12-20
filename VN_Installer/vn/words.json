@@ -286,7 +286,7 @@
     "resume/pause":                           		"Tiếp tục/Tạm dừng",
     "rigid_object":                           		"Đối tượng vật rắn",
     "rotate":                                 		"Xoay",
-    "rotation":                               		"Góc xoay",
+    "rotation":                               		"Góc quay",
     "save_all_current_frame":                 		"Lưu tất cả khung hình hiện tại",
     "save_current_frame":                     		"Lưu khung hình hiện tại",
     "scrollbar":                              		"Thanh cuộn",
@@ -363,7 +363,7 @@
     "list":                                   		"Danh sách",
     "view_mode":                              		"Chế độ xem",
     "palettes_mixer":                         		"Trộn bảng màu",
-    "release_note":                           		"Ghi chú phát hành",
+    "release_note":                           		"G.chú phát hành",
 
     //1.17.10	 	
     "3d_back_view":                           		"Góc nhìn sau 3D",
@@ -418,7 +418,7 @@
     "grid_settings":                          		"Cài đặt lưới",
     "hide_disconnected":                      		"Ẩn ngắt kết nối",
     "import_.zip":                            		"Nhập .zip",
-    "keep_view":                              		"Giữ góc nhìn",
+    "keep_view":                              		"Khóa góc nhìn",
     "lock_keyframe_y":                        		"Khóa keyframe Y",
     "new_preview_window":                     		"Cửa sổ xem trước mới",
     "off":                                    		"Tắt",
@@ -468,7 +468,7 @@
     "tile_off":                               		"Tắt lặp",
     "tile_vertical":                          		"Lặp dọc",
     "tiling_settings":                        		"Chế độ lặp",
-    "tiling":                                 		"Lặp",
+    "tiling":                                 		"Lặp hình",
     "toggle_avoid_label":                     		"Bật/Tắt tránh nhãn",
     "toggle_bypass":                          		"Bật/Tắt bỏ qua",
     "toggle_compute":                         		"Bật/Tắt xử lý",
@@ -495,10 +495,10 @@
 
     //imported from UI.json
     "anim_length":                            		"Độ dài hoạt ảnh",
-    "anim_frame_rate":                        		"Tốc độ k/hình xem trước",
+    "anim_frame_rate":                        		"Tốc độ k.hình xem trước",
     "anim_on_end":                            		"Khi kết thúc",
     "anim_scale_title":                       		"Tỷ lệ hoạt ảnh",
-    "anim_scale_target_frame_length":     		"Độ dài k/hình mục tiêu",
+    "anim_scale_target_frame_length":     		"Độ dài k.hình mục tiêu",
     "anim_scale_scale_factor":                		"Hệ số tỷ lệ",
     "anim_interpolation":                     		"Đường cong nội suy",
     "color_selector_title":                   		"Bộ chọn màu",
