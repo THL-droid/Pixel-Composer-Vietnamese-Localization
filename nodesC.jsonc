@@ -40,7 +40,7 @@
         "name":"Mặt nạ"
       },
       {
-        "name":"Phạm vi độ sâu"
+        "name":"Phạm vi chiều sâu"
       }
     ],
     "outputs":[
@@ -48,7 +48,7 @@
         "name":"Bề mặt ra"
       },
       {
-        "name":"Độ sâu"
+        "name":"Chiều sâu"
       }
     ]
   },
@@ -157,7 +157,7 @@
     ]
   },
   "Node_3D_Affector":{
-    "name":"Tác nhân cảnh",
+    "name":"Tác động cảnh 3D",
     "tooltip":"",
     "inputs":[
       {
@@ -343,7 +343,7 @@
     ],
     "outputs":[
       {
-        "name":"Kết xuất ra"
+        "name":"Đã kết xuất"
       },
       {
         "name":"Normal"
@@ -528,13 +528,13 @@
     ],
     "outputs":[
       {
-        "name":"Kết xuất ra"
+        "name":"Đã kết xuất"
       },
       {
         "name":"Normal"
       },
       {
-        "name":"Độ sâu"
+        "name":"Chiều sâu"
       },
       {
         "name":"Bóng"
@@ -828,7 +828,7 @@
         "name":"Vật liệu mặt đáy"
       },
       {
-        "name":"Vật liệu bề mặt cạnh"
+        "name":"Vật liệu mặt cạnh"
       },
       {
         "name":"Cạnh mịn"
@@ -871,16 +871,16 @@
         "name":"Vật liệu mặt đáy"
       },
       {
-        "name":"Vật liệu trái"
+        "name":"Vật liệu mặt trái"
       },
       {
-        "name":"Vật liệu phải"
+        "name":"Vật liệu mặt phải"
       },
       {
-        "name":"Vật liệu sau"
+        "name":"Vật liệu mặt sau"
       },
       {
-        "name":"Vật liệu trước"
+        "name":"Vật liệu mặt trước"
       },
       {
         "name":"Thuôn"
@@ -894,7 +894,7 @@
         ]
       },
       {
-        "name":"Phân chia bề mặt"
+        "name":"Phân chia nhỏ"
       }
     ],
     "outputs":[
@@ -923,13 +923,13 @@
         "name":"Cạnh"
       },
       {
-        "name":"Vật liệu trên"
+        "name":"Vật liệu mặt trên"
       },
       {
         "name":"Vật liệu mặt đáy"
       },
       {
-        "name":"Vật liệu bề mặt cạnh"
+        "name":"Vật liệu mặt cạnh"
       },
       {
         "name":"Cạnh mịn"
@@ -1200,7 +1200,7 @@
         "name":"Cạnh"
       },
       {
-        "name":"Vật liệu bề mặt cạnh"
+        "name":"Vật liệu mặt cạnh"
       },
       {
         "name":"Vật liệu mặt đáy"
@@ -1212,7 +1212,7 @@
         "name":"Nắp cuối"
       },
       {
-        "name":"Phân chia bề mặt"
+        "name":"Phân chia nhỏ"
       },
       {
         "name":"Bán kính"
@@ -1287,7 +1287,7 @@
         "name":"Mịn"
       },
       {
-        "name":"Vật liệu bề mặt cạnh"
+        "name":"Vật liệu mặt cạnh"
       },
       {
         "name":"Vật liệu mặt nắp"
@@ -1333,7 +1333,7 @@
         "name":"Hai bên"
       },
       {
-        "name":"Vật liệu sau"
+        "name":"Vật liệu mặt sau"
       }
     ],
     "outputs":[
@@ -1359,7 +1359,7 @@
         "name":"Điểm neo"
       },
       {
-        "name":"Phân chia bề mặt"
+        "name":"Phân chia nhỏ"
       },
       {
         "name":"Vật liệu"
@@ -1462,7 +1462,7 @@
         "name":"Vật liệu"
       },
       {
-        "name":"Loại đầu vào",
+        "name":"Kiểu đầu vào",
         "display_data":[
           "Bề mặt",
           "Mảng"
@@ -1472,7 +1472,7 @@
         "name":"Bản đồ chiều cao"
       },
       {
-        "name":"Phân chia bề mặt"
+        "name":"Phân chia nhỏ"
       },
       {
         "name":"Mảng chiều cao"
@@ -1592,13 +1592,13 @@
         "name":"Vật liệu theo từng mặt"
       },
       {
-        "name":"Vật liệu bề mặt cạnh"
+        "name":"Vật liệu mặt cạnh"
       },
       {
         "name":"Tỷ lệ đường dẫn"
       },
       {
-        "name":"Vật liệu bề mặt cạnh 2"
+        "name":"Vật liệu mặt cạnh 2"
       },
       {
         "name":"Vật liệu mặt nắp"
@@ -1647,7 +1647,6 @@
       }
     ]
   },
-
   "Node_3D_Particle":{
     "name":"Hạt 3D",
     "tooltip":"Tạo và điều chỉnh hạt trong không gian 3D.",
@@ -1797,71 +1796,68 @@
         "name":"Hướng trọng lực"
       },
       {
-        "name":"Quay hướng"
+        "name":"Đổi hướng"
       },
       {
-        "name":"Quay cả hai hướng",
+        "name":"Đổi cả hai hướng",
         "tooltip":"Áp dụng hệ số nhân ngẫu nhiên 1, -1 cho tốc độ quay."
       },
       {
 
-///////////////////////////////////////////////////////////////////////////////////////////////Here
-
-
-        "name":"Turn Scale with Speed"
+        "name":"Tỷ lệ đổi hướng theo tốc độ"
       },
       {
-        "name":"Collide Ground"
+        "name":"Va chạm mặt đất"
       },
       {
-        "name":"Ground Offset Type",
+        "name":"Kiểu bù mặt đất",
         "display_data":[
-          "Relative",
-          "Absolute"
+          "Tương đối",
+          "Tuyệt đối"
         ]
       },
       {
-        "name":"Ground Offset"
+        "name":"Bù mặt đất"
       },
       {
-        "name":"Bounce Amount"
+        "name":"Mức nảy"
       },
       {
-        "name":"Bounce Friction",
-        "tooltip":"Apply horizontal friction once particle stop bouncing."
+        "name":"Ma sát khi nảy",
+        "tooltip":"Áp dụng ma sát theo phương ngang khi hạt ngừng nảy."
       },
       {
-        "name":"Use Wiggles"
+        "name":"Dùng rung lắc"
       },
       {
-        "name":"Direction Wiggle"
+        "name":"Rung lắc hướng"
       },
       {
-        "name":"Position Wiggle"
+        "name":"Rung lắc vị trí"
       },
       {
-        "name":"Rotation Wiggle"
+        "name":"Rung lắc góc quay"
       },
       {
-        "name":"Scale Wiggle"
+        "name":"Rung lắc tỷ lệ"
       },
       {
-        "name":"Alpha Over Lifespan"
+        "name":"Alpha theo tuổi thọ"
       },
       {
-        "name":"Follow Velocity"
+        "name":"Theo vận tốc"
       },
       {
         "name":"Alpha"
       },
       {
-        "name":"Path Range"
+        "name":"Phạm vi đường dẫn"
       },
       {
-        "name":"Spawn Rotation"
+        "name":"Góc quay khi sinh"
       },
       {
-        "name":"Pre-Render"
+        "name":"Tiền kết xuất"
       }
     ],
     "outputs":[
@@ -1870,10 +1866,9 @@
       }
     ]
   },
-
   "Node_3D_Point_Affector":{
-    "name":"Point Affector",
-    "tooltip":"Generate array of 3D points interpolating between two values based on the distance.",
+    "name":"Tác động điểm 3D",
+    "tooltip":"Tạo mảng các điểm 3D nội suy giữa hai giá trị dựa trên khoảng cách.",
     "inputs":[
       {
         "name":"Vị trí"
@@ -1888,141 +1883,141 @@
         "name":"Điểm neo"
       },
       {
-        "name":"Points"
+        "name":"Điểm"
       },
       {
-        "name":"Initial value"
+        "name":"Giá trị ban đầu"
       },
       {
-        "name":"Final value"
+        "name":"Giá trị cuối cùng"
       },
       {
-        "name":"Falloff distance"
+        "name":"Khoảng cách suy giảm"
       },
       {
-        "name":"Falloff curve"
+        "name":"Đường cong suy giảm"
       },
       {
-        "name":"Shape",
+        "name":"Hình dạng",
         "display_data":[
-          "Sphere",
-          "Plane"
+          "Hình cầu",
+          "Mặt phẳng"
         ]
       }
     ],
     "outputs":[
       {
-        "name":"Output"
+        "name":"Đầu ra"
       }
     ]
   },
   "Node_3D_Repeat":{
-    "name":"3D Repeat",
-    "tooltip":"Repeat the same 3D mesh multiple times.",
+    "name":"Lặp lại 3D",
+    "tooltip":"Lặp lại cùng một lưới 3D nhiều lần.",
     "inputs":[
       {
-        "name":"Objects"
+        "name":"Đối tượng"
       },
       {
-        "name":"Object Type",
+        "name":"Kiểu đối tượng",
         "display_data":[
-          "Single",
-          "Array"
+          "Đơn lẻ",
+          "Mảng"
         ]
       },
       {
-        "name":"Amount"
+        "name":"Số lượng"
       },
       {
-        "name":"Starting Position"
+        "name":"Vị trí bắt đầu"
       },
       {
-        "name":"Starting Rotation"
+        "name":"Góc quay bắt đầu"
       },
       {
-        "name":"Starting Scale"
+        "name":"Tỷ lệ bắt đầu"
       },
       {
-        "name":"Shift Position"
+        "name":"Dịch chuyển vị trí"
       },
       {
-        "name":"Shift Rotation"
+        "name":"Dịch chuyển góc quay"
       },
       {
-        "name":"Shift Scale"
+        "name":"Dịch chuyển tỷ lệ"
       },
       {
-        "name":"Positions"
+        "name":"Vị trí"
       },
       {
-        "name":"Rotations"
+        "name":"Góc quay"
       },
       {
-        "name":"Scales"
+        "name":"Tỷ lệ"
       },
       {
-        "name":"Use Instance"
+        "name":"Dùng thể hiện"
       },
       {
-        "name":"Pattern",
+        "name":"Mẫu",
         "display_data":[
-          "Linear",
-          "Grid",
-          "Circular"
+          "Tuyến tính",
+          "Khung lưới",
+          "Vòng tròn"
         ]
       },
       {
-        "name":"Grid"
+        "name":"Lưới"
       },
       {
-        "name":"Shift Position Y"
+        "name":"Dịch chuyển vị trí Y"
       },
       {
-        "name":"Shift Position Z"
+        "name":"Dịch chuyển vị trí Z"
       },
       {
-        "name":"Radius"
+        "name":"Bán kính"
       },
       {
-        "name":"Shift Path"
+        "name":"Dịch chuyển đường dẫn"
       },
       {
-        "name":"Look At Center"
+        "name":"Nhìn vào trung tâm"
       },
       {
-        "name":"Follow Path"
+        "name":"Theo đường dẫn"
       },
       {
-        "name":"Seed"
+        "name":"Hạt giống"
       },
       {
-        "name":"Position Scatter"
+        "name":"Phân tán vị trí"
       },
       {
-        "name":"Rotation Scatter"
+        "name":"Phân tán góc quay"
       },
       {
-        "name":"Scale Scatter"
+        "name":"Phân tán tỷ lệ"
       },
       {
-        "name":"Scale Uniform"
+        "name":"Tỷ lệ đồng nhất"
       }
     ],
     "outputs":[
       {
-        "name":"Scene"
+        "name":"Khung cảnh"
       }
     ]
   },
   "Node_3D_Round_Vertex":{
-    "name":"Discretize vertex",
-    "tooltip":"Round out vertex position to a specified step.",
+    "name":"Rời rạc hóa đỉnh",
+    "tooltip":"Làm tròn vị trí đỉnh đến một bước cụ thể.",
     "inputs":[
       {
         "name":"Lưới"
       },
       {
-        "name":"Step"
+        "name":"Bước"
       }
     ],
     "outputs":[
@@ -2032,31 +2027,31 @@
     ]
   },
   "Node_3D_Scene":{
-    "name":"3D Scene",
-    "tooltip":"Combine multiple 3D objects into a single junction.",
+    "name":"Khung cảnh 3D",
+    "tooltip":"Kết hợp nhiều đối tượng 3D thành một điểm nối duy nhất.",
     "inputs":[
       {
-        "name":"Object"
+        "name":"Đối tượng"
       }
     ],
     "outputs":[
       {
-        "name":"Scene"
+        "name":"Khung cảnh"
       }
     ]
   },
   "Node_3D_Set_Material":{
-    "name":"Set Material",
-    "tooltip":"Replace mesh material with a new one.",
+    "name":"Đặt vật liệu",
+    "tooltip":"Thay thế vật liệu lưới bằng một vật liệu mới.",
     "inputs":[
       {
         "name":"Lưới"
       },
       {
-        "name":"Materials"
+        "name":"Vật liệu"
       },
       {
-        "name":"Single material"
+        "name":"Vật liệu đơn lẻ"
       }
     ],
     "outputs":[
@@ -2066,17 +2061,17 @@
     ]
   },
   "Node_3D_Subdivide":{
-    "name":"3D Subdivide",
-    "tooltip":"Subdivide faces in mesh.",
+    "name":"Phân chia nhỏ 3D",
+    "tooltip":"Phân chia nhỏ các mặt trong lưới.",
     "inputs":[
       {
         "name":"Lưới"
       },
       {
-        "name":"Subobjects"
+        "name":"Đối tượng con"
       },
       {
-        "name":"Level"
+        "name":"Mức độ"
       }
     ],
     "outputs":[
@@ -2086,8 +2081,8 @@
     ]
   },
   "Node_3D_Transform":{
-    "name":"Transform 3D",
-    "tooltip":"Transform 3D object.",
+    "name":"Biến đổi 3D",
+    "tooltip":"Biến đổi đối tượng 3D.",
     "inputs":[
       {
         "name":"Vị trí"
@@ -2112,8 +2107,8 @@
     ]
   },
   "Node_3D_Transform_Image":{
-    "name":"Transform Image 3D",
-    "tooltip":"Transform image in 3D space",
+    "name":"Biến đổi hình ảnh 3D",
+    "tooltip":"Biến đổi hình ảnh trong không gian 3D.",
     "inputs":[
       {
         "name":"Vị trí"
@@ -2128,26 +2123,26 @@
         "name":"Điểm neo"
       },
       {
-        "name":"Surface"
+        "name":"Bề mặt"
       },
       {
-        "name":"Projection",
+        "name":"Phép chiếu",
         "display_data":[
-          "Perspective",
-          "Orthographic"
+          "Phối cảnh",
+          "Trực giao"
         ]
       },
       {
         "name":"FOV"
       },
       {
-        "name":"Texture Tiling"
+        "name":"Lát Texture"
       },
       {
-        "name":"View Range"
+        "name":"Phạm vi xem"
       },
       {
-        "name":"Depth Range"
+        "name":"Phạm vi chiều sâu"
       }
     ],
     "outputs":[
@@ -2155,19 +2150,19 @@
         "name":"Lưới"
       },
       {
-        "name":"Rendered"
+        "name":"Đã kết xuất"
       },
       {
-        "name":"Depth"
+        "name":"Chiều sâu"
       }
     ]
   },
   "Node_3D_Transform_Scene":{
-    "name":"Transform Scene",
-    "tooltip":"Transform 3D scene, accepts array of transformations for each objects.",
+    "name":"Biến đổi cảnh 3D",
+    "tooltip":"Biến đổi cảnh 3D, chấp nhận mảng biến đổi cho từng đối tượng.",
     "inputs":[
       {
-        "name":"Scene"
+        "name":"Khung cảnh"
       },
       {
         "name":"Vị trí"
@@ -2179,37 +2174,37 @@
         "name":"Tỷ lệ"
       },
       {
-        "name":"Positioning type",
+        "name":"Kiểu định vị",
         "display_data":[
-          "Additive",
-          "Override"
+          "Cộng thêm",
+          "Ghi đè"
         ]
       },
       {
-        "name":"Rotating type",
+        "name":"Kiểu quay",
         "display_data":[
-          "Additive",
-          "Override"
+          "Cộng thêm",
+          "Ghi đè"
         ]
       },
       {
-        "name":"Scaling type",
+        "name":"Kiểu tỷ lệ",
         "display_data":[
-          "Additive",
-          "Multiplicative",
-          "Override"
+          "Cộng thêm",
+          "Nhân lên",
+          "Ghi đè"
         ]
       }
     ],
     "outputs":[
       {
-        "name":"Scene"
+        "name":"Khung cảnh"
       }
     ]
   },
   "Node_3D_UV_Remap":{
-    "name":"UV Remap",
-    "tooltip":"Remap UV map using plane.",
+    "name":"Ánh xạ lại UV",
+    "tooltip":"Ánh xạ lại UV bằng mặt phẳng.",
     "inputs":[
       {
         "name":"Vị trí"
@@ -2227,10 +2222,10 @@
         "name":"Lưới"
       },
       {
-        "name":"Target subobject"
+        "name":"Đối tượng con mục tiêu"
       },
       {
-        "name":"Bake UV"
+        "name":"Nướng UV"
       }
     ],
     "outputs":[
@@ -2239,24 +2234,27 @@
       }
     ]
   },
+
+//End of 3D node
+
   "Node_9Slice":{
-    "name":"Nine Slice",
-    "tooltip":"Cut image into 3x3 parts, and scale\/repeat only the middle part.",
+    "name":"Cắt 9 lát",
+    "tooltip":"Cắt ảnh thành 9 phần (3x3), chỉ co giãn\/lặp lại phần ở giữa.",
     "inputs":[
       {
         "name":"Bề mặt vào"
       },
       {
-        "name":"Dimension"
+        "name":"Kích thước"
       },
       {
         "name":"Splice"
       },
       {
-        "name":"Filling modes",
+        "name":"Chế độ lấp đầy",
         "display_data":[
-          "Tỷ lệ",
-          "Repeat"
+          "Co giãn",
+          "Lặp lại"
         ]
       }
     ],
@@ -2270,11 +2268,11 @@
     ]
   },
   "Node_Active_Canvas":{
-    "name":"Active Canvas",
-    "tooltip":"Draw using parameterized brush.",
+    "name":"Bảng vẽ hoạt ảnh",
+    "tooltip":"Vẽ bằng cách dùng cọ được tham số hóa.",
     "inputs":[
       {
-        "name":"Dimension"
+        "name":"Kích thước"
       },
       {
         "name":"Texture"
@@ -2283,76 +2281,76 @@
         "name":"Vị trí"
       },
       {
-        "name":"Base Rotation"
+        "name":"Góc quay cơ sở"
       },
       {
         "name":"Tỷ lệ"
       },
       {
-        "name":"Color"
+        "name":"Màu"
       },
       {
         "name":"Alpha"
       },
       {
-        "name":"Active"
+        "name":"Hoạt động"
       },
       {
-        "name":"Distance"
+        "name":"Khoảng cách"
       },
       {
-        "name":"Rotate by Direction"
+        "name":"Quay theo hướng"
       },
       {
-        "name":"Direction Shift"
+        "name":"Dịch chuyển hướng"
       },
       {
-        "name":"Rotation Jitter"
+        "name":"Nhiễu góc quay"
       },
       {
-        "name":"Seed"
+        "name":"Hạt giống"
       },
       {
-        "name":"Position Jitter"
+        "name":"Nhiễu vị trí"
       },
       {
-        "name":"Scale Jitter"
+        "name":"Nhiễu tỷ lệ"
       },
       {
-        "name":"Color Jitter"
+        "name":"Nhiễu màu"
       }
     ],
     "outputs":[
       {
-        "name":"Output"
+        "name":"Đầu ra"
       }
     ]
   },
   "Node_Alpha_Cutoff":{
-    "name":"Alpha Cutoff",
-    "tooltip":"Remove pixel with low alpha value.",
+    "name":"Ngưỡng Alpha",
+    "tooltip":"Loại bỏ điểm pixel có giá trị alpha thấp.",
     "inputs":[
       {
         "name":"Bề mặt vào"
       },
       {
-        "name":"Minimum",
-        "tooltip":"Any pixel with less alpha (more transparent) than this will be removed."
+        "name":"Tối thiểu",
+        "tooltip":"Bất kỳ điểm pixel nào có alpha thấp hơn (trong suốt hơn) mức này sẽ bị loại bỏ."
       },
       {
-        "name":"Mask"
+        "name":"Mặt nạ"
       },
       {
-        "name":"Mix"
+        "name":"Trộn"
       },
       {
-        "name":"Active"
+        "name":"Hoạt động"
       },
       {
-        "name":"Invert mask"
+        "name":"Đảo ngược mặt nạ"
       },
       {
-        "name":"Mask feather"
+        "name":"Làm mềm mép mặt nạ"
       }
     ],
     "outputs":[
@@ -2362,14 +2360,14 @@
     ]
   },
   "Node_Alpha_Grey":{
-    "name":"Alpha to Grey",
-    "tooltip":"Convert alpha value into solid greyscale.",
+    "name":"Alpha sang xám",
+    "tooltip":"Chuyển đổi giá trị alpha thành màu xám đặc.",
     "inputs":[
       {
         "name":"Bề mặt vào"
       },
       {
-        "name":"Active"
+        "name":"Hoạt động"
       }
     ],
     "outputs":[
@@ -2379,36 +2377,36 @@
     ]
   },
   "Node_Ambient_Occlusion":{
-    "name":"Ambient Occlusion",
-    "tooltip":"Apply simple 2D AO effect using height map.",
+    "name":"Che khuất môi trường",
+    "tooltip":"Áp dụng hiệu ứng AO 2D đơn giản bằng cách sử dụng bản đồ chiều cao.",
     "inputs":[
       {
-        "name":"Height Map"
+        "name":"Bản đồ chiều cao"
       },
       {
-        "name":"Intensity"
+        "name":"Cường độ"
       },
       {
-        "name":"Active"
+        "name":"Hoạt động"
       },
       {
-        "name":"Height"
+        "name":"Chiều cao"
       },
       {
-        "name":"Pixel Sweep"
+        "name":"Quét Pixel"
       },
       {
-        "name":"Blend Original"
+        "name":"Pha trộn bản gốc"
       },
       {
-        "name":"Blendmode",
+        "name":"Chế độ pha trộn",
         "display_data":[
-          "Multiply",
-          "Subtract"
+          "Nhân tối",
+          "Trừ"
         ]
       },
       {
-        "name":"Blend Strength"
+        "name":"Độ mạnh pha trộn"
       }
     ],
     "outputs":[
@@ -2418,108 +2416,108 @@
     ]
   },
   "Node_Anim_Curve":{
-    "name":"Evaluate Curve",
-    "tooltip":"Evaluate value from an animation curve.",
+    "name":"Đánh giá Đường cong",
+    "tooltip":"Đánh giá giá trị từ một đường cong hoạt ảnh.",
     "inputs":[
       {
-        "name":"Curve"
+        "name":"Đường cong"
       },
       {
-        "name":"Progress"
+        "name":"Tiến trình"
       },
       {
-        "name":"Minimum"
+        "name":"Tối thiểu"
       },
       {
-        "name":"Maximum"
+        "name":"Tối đa"
       },
       {
-        "name":"Animated"
+        "name":"Theo hoạt ảnh"
       },
       {
-        "name":"Display Type",
+        "name":"Kiểu hiển thị",
         "display_data":[
-          "Number",
-          "Curve"
+          "Số",
+          "Đường cong"
         ]
       }
     ],
     "outputs":[
       {
-        "name":"Curve"
+        "name":"Đường cong"
       }
     ]
   },
   "Node_Anim_Loop":{
-    "name":"Frame Loop",
-    "tooltip":"Loop animation around the given period.",
+    "name":"Lặp khung hình",
+    "tooltip":"Lặp hoạt ảnh theo khoảng thời gian cho trước.",
     "inputs":[
       {
-        "name":"Surface"
+        "name":"Bề mặt"
       },
       {
-        "name":"Loop Start"
+        "name":"Bắt đầu vòng lặp"
       },
       {
-        "name":"Loop Range"
+        "name":"Phạm vi vòng lặp"
       },
       {
-        "name":"Infinite"
+        "name":"Vô hạn"
       },
       {
-        "name":"Loop Amount"
+        "name":"Số lần lặp"
       },
       {
-        "name":"Pre Loop",
+        "name":"Vòng lặp trước",
         "display_data":[
-          "Passthrough",
-          "Empty"
+          "Giữ nguyên",
+          "Trống"
         ]
       },
       {
-        "name":"Post Loop",
+        "name":"vòng lặp sau",
         "display_data":[
-          "Passthrough",
-          "Empty"
+          "Giữ nguyên",
+          "Trống"
         ]
       }
     ],
     "outputs":[
       {
-        "name":"Surface"
+        "name":"Bề mặt"
       }
     ]
   },
   "Node_Animation_Control":{
-    "name":"Animation Control",
-    "tooltip":"Control animation state with triggers.",
+    "name":"Bộ điều khiển hoạt ảnh",
+    "tooltip":"Điều khiển trạng thái hoạt ảnh bằng các bộ kích hoạt.",
     "inputs":[
       {
-        "name":"Toggle Play / Pause"
+        "name":"Chuyển đổi Phát / Tạm dừng"
       },
       {
-        "name":"Pause"
+        "name":"Tạm dừng"
       },
       {
-        "name":"Resume"
+        "name":"Tiếp tục"
       },
       {
-        "name":"Play From Beginning"
+        "name":"Phát từ đầu"
       },
       {
-        "name":"Play once"
+        "name":"Phát một lần"
       },
       {
-        "name":"Skip Frames"
+        "name":"Bỏ qua khung hình"
       },
       {
-        "name":"Skip Frames Count"
+        "name":"Đếm số lượng khung hình bỏ qua"
       }
     ],
     "outputs":[]
   },
   "Node_Application_In":{
-    "name":"GUI In",
+    "name":"Đầu vào GUI",
     "tooltip":"",
     "inputs":[
       {
@@ -2529,7 +2527,7 @@
     "outputs":[]
   },
   "Node_Application_Out":{
-    "name":"GUI Out",
+    "name":"Đầu ra GUI",
     "tooltip":"",
     "inputs":[],
     "outputs":[
@@ -2539,60 +2537,63 @@
     ]
   },
   "Node_Area":{
-    "name":"Area",
-    "tooltip":"Generate area data.",
+    "name":"Khu vực",
+    "tooltip":"Tạo dữ liệu khu vực",
     "inputs":[
       {
         "name":"Vị trí"
       },
       {
-        "name":"Span"
+        "name":"Khoảng"
       },
       {
-        "name":"Shape",
+        "name":"Hình dạng",
         "display_data":[
-          "Rectangle",
-          "Elipse"
+          "Hình chữ nhật",
+          "Hình elip"
         ]
       },
       {
-        "name":"Type",
+        "name":"Kiểu loại",
         "display_data":[
-          "Center Span",
-          "Two Point"
+          "Khoảng từ trung tâm",
+          "Hai điểm"
         ]
       }
     ],
     "outputs":[
       {
-        "name":"Area"
+        "name":"Khu vực"
       }
     ]
   },
   "Node_Argument":{
-    "name":"Argument",
+    "name":"Tham số",
     "tooltip":"",
     "inputs":[
       {
-        "name":"Tag"
+        "name":"Thẻ"
       },
       {
-        "name":"Type",
+        "name":"Kiểu loại",
         "display_data":[
-          "String",
-          "Number"
+          "Chuỗi ký tự",
+          "Số"
         ]
       },
       {
-        "name":"Default value"
+        "name":"Giá trị mặc định"
       }
     ],
     "outputs":[
       {
-        "name":"Value"
+        "name":"Giá trị"
       }
     ]
   },
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
   "Node_Armature":{
     "name":"Armature Create",
     "tooltip":"Create new armature system.",
