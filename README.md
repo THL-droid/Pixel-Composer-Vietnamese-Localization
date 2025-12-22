@@ -9,7 +9,7 @@
 
 ## 📄 Tệp bao gồm
 - [x] words.json (gộp lại với UI.json)
-- [ ] nodes.json (tệp đang được dịch (nodes.jsonc) hoàn thành 5.58%)
+- [ ] nodes.json (tệp đang được dịch (nodes.jsonc) hoàn thành 8.01%)
 
 ## ✔️ Phiên bản tương thích
 Phiên bản v1.20.0.9 hoặc cũ hơn.
