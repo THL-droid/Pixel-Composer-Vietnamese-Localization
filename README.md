@@ -3,7 +3,7 @@
 
 # 🇻🇳 Pixel Composer v1.20 Việt hóa
 ## 📌 Mô tả
-Đây là kho lưu trữ chứa các tệp bản địa hóa Tiếng Việt dành cho Pixel Composer.
+Đây là nơi lưu trữ các tệp bản địa hóa Tiếng Việt dành cho Pixel Composer.
 
 <br><br>
 
@@ -35,7 +35,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 
 ## 🅰️ Thay đổi phông chữ (tùy chọn)
 > [!WARNING]
-> Lưu ý phông chữ phải có hỗ trợ tiếng Việt để hiển thị tiếng Việt chính xác.
+> Lưu ý phông chữ phải có hỗ trợ tiếng Việt để hiển thị chính xác.
 
 - 1️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Fonts.
 - 2️⃣ Tải phông chữ mà bạn muốn (vd đuôi tệp: .tff) rồi sao chép nó vào thư mục Fonts như trên.
@@ -45,7 +45,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 <br><br>
 
 ## 🔧 Đề xuất chỉnh sửa
-- Nếu thấy chỗ nào cần sửa cho phù hợp hơn, thì bạn có thể gửi góp ý cho tôi qua GitHub Issues để tôi xem xét sửa lại.
+- Nếu bạn thấy chỗ nào cần sửa cho phù hợp hơn, thì bạn có thể gửi góp ý qua GitHub Issues để xem xét sửa lại.
 
 <br><br>
 
