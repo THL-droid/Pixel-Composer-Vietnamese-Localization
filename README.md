@@ -4,9 +4,7 @@
 # 🇻🇳 Pixel Composer v1.20 Việt hóa
 ## 📌 Mô tả
 Đây là nơi lưu trữ các tệp bản địa hóa Tiếng Việt dành cho Pixel Composer.
-
 <br><br>
-
 ## 📄 Tệp bao gồm
 - [x] words.json (gộp lại với UI.json)
 - [ ] nodes.json (tệp đang được dịch (nodes.jsonc) hoàn thành 8.01%)
