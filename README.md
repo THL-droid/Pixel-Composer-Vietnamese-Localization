@@ -11,12 +11,12 @@
 - [x] words.json (gộp lại với UI.json)
 - [ ] nodes.json (tệp đang được dịch (nodes.jsonc) hoàn thành 8.01%)
 
-<br><br>
+<br>
 
 ## ✔️ Phiên bản tương thích
 Phiên bản v1.20.0.9 hoặc cũ hơn.
 
-<br><br>
+<br>
 
 ## 🛠️ Cách cài đặt
 - 1️⃣ Tải xuống, vào thư mục VN_Installer và sao chép thư mục "vn"
@@ -26,7 +26,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 > *hoặc*<br><br>
 > Tải xuống rồi vào VN_Installer > nhấn 2 lần vào Installer.exe > nó sẽ hiện cảnh báo rồi nhấn vào thông tin thêm, nhấn "Chạy dù thế nào đi nữa" > xong nó sẽ hiện thông báo "Đã hoàn thành cài đặt" rồi nhấn ok > sau đó mở phần mềm vào Interface Language chọn "vn" rồi khởi động lại phần mềm là xong.
 
-<br><br>
+<br>
 
 ## 🗑️ Gỡ cài đặt
 - 1️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Locale rồi xóa thư mục "vn".
@@ -35,7 +35,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 > *hoặc*<br><br>
 > Tải xuống rồi vào VN_Installer > nhấn 2 lần vào Uninstaller.exe > nó sẽ hiện cảnh báo rồi nhấn vào thông tin thêm, nhấn "Chạy dù thế nào đi nữa" > xong nó sẽ hiện thông báo "Đã hoàn thành gỡ bỏ" rồi nhấn ok là đã gỡ bỏ xong.
 
-<br><br>
+<br>
 
 ## 🅰️ Thay đổi phông chữ (tùy chọn)
 > [!WARNING]
@@ -46,12 +46,12 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 - 3️⃣ Sau đó khởi động lại phần mềm, mở File > Preferences > Theme, vào Font Override rồi chọn phông chữ bạn muốn.
 - 4️⃣ Khởi động lại phần mềm để áp dụng phông chữ mới.
 
-<br><br>
+<br>
 
 ## 🔧 Đề xuất chỉnh sửa
 - Nếu bạn thấy chỗ nào cần sửa cho phù hợp hơn, thì bạn có thể gửi góp ý qua GitHub Issues để xem xét sửa lại.
 
-<br><br>
+<br>
 
 ## ℹ️ Thông tin thêm về Pixel Composer
 - 🏠 [Trang chính thức](https://pixel-composer.com/)
