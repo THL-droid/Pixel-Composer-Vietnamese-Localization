@@ -22,7 +22,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 - 1️⃣ Tải xuống, vào thư mục VN_Installer và sao chép thư mục "vn"
 - 2️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Locale rồi dán thư mục "vn" vào.
 - 3️⃣ Sau đó khởi động lại phần mềm, mở File > Preferences > Interface > Interface Language, rồi chọn "vn".
-- 4️⃣ Khởi động lại lần nữa để áp dụng bản Việt hóa. <br><br>
+- 4️⃣ Khởi động lại lần nữa để áp dụng bản Việt hóa.
 > *hoặc*<br><br>
 > Tải xuống rồi vào VN_Installer > nhấn 2 lần vào Installer.exe > nó sẽ hiện cảnh báo rồi nhấn vào thông tin thêm, nhấn "Chạy dù thế nào đi nữa" > xong nó sẽ hiện thông báo "Đã hoàn thành cài đặt" rồi nhấn ok > sau đó mở phần mềm vào Interface Language chọn "vn" rồi khởi động lại phần mềm là xong.
 
