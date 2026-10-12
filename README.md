@@ -5,7 +5,7 @@
 ## 📌 Mô tả
 Đây là nơi lưu trữ các tệp bản địa hóa Tiếng Việt dành cho Pixel Composer.
 
-<br><br>
+<br>
 
 ## 📄 Tệp bao gồm
 - [x] words.json (gộp lại với UI.json)
@@ -31,7 +31,7 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 ## 🗑️ Gỡ cài đặt
 - 1️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Locale rồi xóa thư mục "vn".
 - 2️⃣ Sau đó khởi động lại phần mềm, mở File > Preferences > Interface > Interface Language, rồi chọn lại "en".
-- 3️⃣ Khởi động lại lần nữa để quay về bản tiếng Anh. <br><br>
+- 3️⃣ Khởi động lại lần nữa để quay về bản tiếng Anh.
 > *hoặc*<br><br>
 > Tải xuống rồi vào VN_Installer > nhấn 2 lần vào Uninstaller.exe > nó sẽ hiện cảnh báo rồi nhấn vào thông tin thêm, nhấn "Chạy dù thế nào đi nữa" > xong nó sẽ hiện thông báo "Đã hoàn thành gỡ bỏ" rồi nhấn ok là đã gỡ bỏ xong.
 
