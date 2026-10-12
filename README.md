@@ -4,10 +4,14 @@
 # 🇻🇳 Pixel Composer v1.20 Việt hóa
 ## 📌 Mô tả
 Đây là nơi lưu trữ các tệp bản địa hóa Tiếng Việt dành cho Pixel Composer.
+
 <br><br>
+
 ## 📄 Tệp bao gồm
 - [x] words.json (gộp lại với UI.json)
 - [ ] nodes.json (tệp đang được dịch (nodes.jsonc) hoàn thành 8.01%)
+
+<br><br>
 
 ## ✔️ Phiên bản tương thích
 Phiên bản v1.20.0.9 hoặc cũ hơn.
@@ -21,6 +25,8 @@ Phiên bản v1.20.0.9 hoặc cũ hơn.
 - 4️⃣ Khởi động lại lần nữa để áp dụng bản Việt hóa. <br><br>
 > *hoặc*<br><br>
 > Tải xuống rồi vào VN_Installer > nhấn 2 lần vào Installer.exe > nó sẽ hiện cảnh báo rồi nhấn vào thông tin thêm, nhấn "Chạy dù thế nào đi nữa" > xong nó sẽ hiện thông báo "Đã hoàn thành cài đặt" rồi nhấn ok > sau đó mở phần mềm vào Interface Language chọn "vn" rồi khởi động lại phần mềm là xong.
+
+<br><br>
 
 ## 🗑️ Gỡ cài đặt
 - 1️⃣ Mở phần mềm > ở thanh trên cùng chọn Help > Open local directory > vào thư mục Locale rồi xóa thư mục "vn".
